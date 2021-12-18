@@ -1,0 +1,21 @@
+@startuml
+
+":TestCase" -> "mobile01:CelularPoo": new
+create "mobile02:CelularPoo"
+":TestCase" -> "mobile02:CelularPoo": new
+":TestCase" -> "mobile01:CelularPoo": llamarConVideoChat(mobile02)
+create "c:Chat"
+"mobile01:CelularPoo" -> "c:Chat": new
+create "v:Video"
+"mobile01:CelularPoo" -> "v:Video": new
+"mobile01:CelularPoo" -> "mobile01:CelularPoo": llamarAConY(mobile02, c, v)
+"mobile01:CelularPoo" -> "mobile01:CelularPoo": mismaQue(c, v, mobile02)
+"mobile01:CelularPoo" -> "mobile01:CelularPoo": buscoVarias(c, v)
+loop [para cada capacidad x]
+"mobile01:CelularPoo" -> "mobile01:CelularPoo": buscar(x)
+end
+
+"mobile01:CelularPoo" --> ":TestCase": "Llamada [capacidad first nombre] y [capacidad second nombre] en curso"
+
+
+@enduml
