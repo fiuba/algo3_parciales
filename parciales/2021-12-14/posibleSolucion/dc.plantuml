@@ -34,7 +34,7 @@ class CeluPoo {
         
         + llamarACon(otroCeluPoo, unaCapacidad)
         + llamarAConY(otroCeluPoo, listaDeCapacidades)
-        + miscaQue(listaCapacidades, otroCeluPoo)
+        + miscaCapacidadQue(listaCapacidades, otroCeluPoo)
 }
 
 note left of CeluPoo::buscar

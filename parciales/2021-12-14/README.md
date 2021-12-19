@@ -24,4 +24,8 @@ Los métodos `llamarXXX` y `recibirXXX` son funcionalmente equivalentes. No reem
 
 ## Diagrama de secuencia *recibirLlamadaConVideoDe*
 
-![ds1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/fiuba/algo3_parciales/master/parciales/2021-12-14/posibleSolucion/ds_recibirLLamadaConVideo.plantuml)
+![ds2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/fiuba/algo3_parciales/master/parciales/2021-12-14/posibleSolucion/ds_recibirLLamadaConVideo.plantuml)
+
+## Diagrama de secuencia *buscarVarias*
+
+![ds2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/fiuba/algo3_parciales/master/parciales/2021-12-14/posibleSolucion/ds_buscarvarias.plantuml)
