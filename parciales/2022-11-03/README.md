@@ -2,6 +2,8 @@
 
 Esta solución no implementa el patrón double dispach **intensionalmente.**
 
+[Enunciado](enunciado/Parcial%20primera%20oportunidad%202022%2002%20C.pdf)
+
 ### Diagrama de clases
 
 ![dc](diagramas/dc.png)
